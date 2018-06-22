@@ -1,57 +1,52 @@
 <?php
-		$name = 'Сергей';
-		$age = 41;
-		$email = 'c_76@bk.ru';
-		$city = 'Санкт-Петербург';
-		$about = 'Начинающий Веб-разработчик';
-	?>
-  <!DOCTYPE html>
-  <html lang="ru">
+/**
+ * Created by PhpStorm.
+ * User: Сергей
+ * Date: 22.06.2018
+ * Time: 19:42
+ */
 
-  <head>
+$name = 'Сергей';
+$age = 41;
+$email = 'c_76@bk.ru';
+$city = 'Санкт-Петербург';
+$about = 'Начинающий Веб-разработчик';
+?>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
     <meta charset="UTF-8">
     <title><?= $name . ' – ' . $about ?></title>
     <link rel="stylesheet" href="./css/style.css">
-  </head>
+</head>
 
-  <body>
-    <div>
-      <h1>Страница пользователя Сергей Люляев</h1>
-      <table>
+<body>
+<div>
+    <h1>Страница пользователя Сергей Люляев</h1>
+    <table>
         <tr>
-          <td>Имя</td>
-          <td>
-            <?php echo $name ?>
-          </td>
+            <td>Имя</td>
+            <td><?php echo $name ?></td>
         </tr>
         <tr>
-          <td>Возраст</td>
-          <td>
-            <?php echo $age ?>
-          </td>
+            <td>Возраст</td>
+            <td><?php echo $age ?></td>
         </tr>
         <tr>
-          <td>Адрес электронной почты</td>
-          <td>
-            <a href="$email">
-              <?php echo  $email ?>
-            </a>
-          </td>
+            <td>Адрес электронной почты</td>
+            <td><a href="mailto:<?= $email ?>"><?= $email ?></a></td>
         </tr>
         <tr>
-          <td>Город</td>
-          <td>
-            <?php echo $city ?>
-          </td>
+            <td>Город</td>
+            <td><?php echo $city ?></td>
         </tr>
         <tr>
-          <td>О себе</td>
-          <td>
-            <?php echo $about ?>
-          </td>
+            <td>О себе</td>
+            <td><?php echo $about ?></td>
         </tr>
-      </table>
-    </div>
-  </body>
+    </table>
+</div>
+</body>
 
-  </html>
+</html>
