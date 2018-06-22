@@ -17,7 +17,7 @@ $about = 'Начинающий Веб-разработчик';
 
 <head>
     <meta charset="UTF-8">
-    <title><?= $name . ' – ' . $about ?></title>
+    <title><?php echo $name . ' – ' . $about ?></title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -35,7 +35,7 @@ $about = 'Начинающий Веб-разработчик';
         </tr>
         <tr>
             <td>Адрес электронной почты</td>
-            <td><a href="mailto:<?= $email ?>"><?= $email ?></a></td>
+            <td><a href="mailto:<?php echo $email ?>"><?php echo $email ?></a></td>
         </tr>
         <tr>
             <td>Город</td>
