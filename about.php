@@ -3,14 +3,14 @@
 		$age = 41;
 		$email = 'c_76@bk.ru';
 		$city = 'Санкт-Петербург';
-		$about = 'Начинающий веб-разработчик';
+		$about = 'Начинающий Веб-разработчик';
 	?>
   <!DOCTYPE html>
   <html lang="ru">
 
   <head>
     <meta charset="UTF-8">
-    <title>About me</title>
+    <title><?= $name . ' – ' . $about ?></title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
 
