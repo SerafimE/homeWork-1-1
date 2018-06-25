@@ -17,7 +17,7 @@ $about = 'Начинающий Веб-разработчик';
 
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $name . ' – ' . $about ?></title>
+    <title><?php echo $name . ' _ ' . $about ?></title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
