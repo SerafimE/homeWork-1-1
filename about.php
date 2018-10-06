@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Сергей
- * Date: 22.06.2018
- * Time: 19:42
- */
 
 $name = 'Сергей';
 $age = 41;
