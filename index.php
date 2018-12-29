@@ -69,5 +69,6 @@ if (isset($_GET['number'])) {
 </form>
 <?php if (isset($num)) : ?>
     <p><?php echo(number($num) ? $inNumberRow : $notInNumberRow); ?></p>
-</body>
+<?php endif;?>
+    </body>
 </html>
