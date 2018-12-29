@@ -6,8 +6,6 @@ $email = 'c_76@bk.ru';
 $city = 'Санкт-Петербург';
 $about = 'Начинающий Веб-разработчик';
 
-//================================//
-
 function number($x)
 {
     $first = $second = 1;
@@ -31,13 +29,11 @@ if (isset($_GET['number'])) {
 ?>
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <title><?php echo $name . ' _ ' . $about ?></title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
 <div>
     <h1>Страница пользователя Сергей Люляев</h1>
@@ -71,10 +67,7 @@ if (isset($_GET['number'])) {
     <input type="number" placeholder="Введите число" name="number">
     <button type="submit">Проверить</button>
 </form>
-
 <?php if (isset($num)) : ?>
     <p><?php echo(number($num) ? $inNumberRow : $notInNumberRow); ?></p>
-<?php endif; ?>
 </body>
-
 </html>
